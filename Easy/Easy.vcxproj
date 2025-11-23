@@ -124,9 +124,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algebraic_sum.cpp" />
+    <ClCompile Include="choose_day.cpp" />
+    <ClCompile Include="exponentiation.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="max_min_digit.cpp" />
+    <ClCompile Include="physics.cpp" />
     <ClCompile Include="power-law_sum.cpp" />
+    <ClCompile Include="vector_length.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

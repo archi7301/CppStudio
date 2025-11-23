@@ -5,6 +5,9 @@ using namespace std;
 int algebraic_sum();
 int power_law_sum();
 int MaxMinDigit();
+int physics();
+int exponentiation();
+int choose_day_of_week();
 
 int main()
 {
@@ -12,7 +15,7 @@ int main()
 	int key{};
 	while (true)
 	{
-		cout << "Select a task (1-5): ";
+		cout << "Select a task (1-9): ";
 		cin >> choice;
 
 		switch (choice)
@@ -25,6 +28,15 @@ int main()
 			break;
 		case 3:
 			MaxMinDigit();
+			break;
+		case 4:
+			physics();
+			break;
+		case 5:
+			exponentiation();
+			break;
+		case 6:
+			choose_day_of_week();
 			break;
 		default:
 			cout << "There is no such task!" << endl;
