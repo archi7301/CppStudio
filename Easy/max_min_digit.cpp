@@ -11,13 +11,15 @@ int MaxMinDigit()
 	if (number >= 1 && number <= 99)
 	{
 		string str_number = to_string(number);
-		for (unsigned int i = 0; i <= size(str_number); i++)
+		if (str_number[0] > str_number[1])
 		{
-			if (str_number[0] > str_number[1])
-			{
-				cout << "Bigger digit: " << str_number[0];
-				cout << "Smaller digit: " << str_number[1];
-			}
+			cout << "Bigger digit: " << str_number[0] << endl;
+			cout << "Smaller digit: " << str_number[1] << endl;
+		}
+		else
+		{
+			cout << "Bigger digit: " << str_number[1] << endl;
+			cout << "Smaller digit: " << str_number[0] << endl;
 		}
 	}
 	else
