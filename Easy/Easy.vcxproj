@@ -123,14 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="algebraic_sum.cpp" />
-    <ClCompile Include="choose_day.cpp" />
-    <ClCompile Include="exponentiation.cpp" />
+    <ClCompile Include="algebraic_sum_№1.cpp" />
+    <ClCompile Include="choose_day_№6.cpp" />
+    <ClCompile Include="exponentiation_№5.cpp" />
+    <ClCompile Include="function_value_№8.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="max_min_digit.cpp" />
-    <ClCompile Include="physics.cpp" />
-    <ClCompile Include="power-law_sum.cpp" />
-    <ClCompile Include="vector_length.cpp" />
+    <ClCompile Include="max_min_digit_№3.cpp" />
+    <ClCompile Include="physics_№4.cpp" />
+    <ClCompile Include="power-law_sum_№2.cpp" />
+    <ClCompile Include="sum_of_squares_№9.cpp" />
+    <ClCompile Include="vector_length_№7.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
