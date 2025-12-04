@@ -8,6 +8,8 @@ int MaxMinDigit();
 int physics();
 int exponentiation();
 int choose_day_of_week();
+int vector_length();
+int function_value();
 
 int main()
 {
@@ -37,6 +39,12 @@ int main()
 			break;
 		case 6:
 			choose_day_of_week();
+			break;
+		case 7:
+			vector_length();
+			break;
+		case 8:
+			function_value();
 			break;
 		default:
 			cout << "There is no such task!" << endl;
